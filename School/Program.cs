@@ -21,8 +21,10 @@ while (true)
         string firstName = Console.ReadLine();
         Console.WriteLine("Введите фамилию студента");
         string lastName = Console.ReadLine();
+        Console.WriteLine("Введите врзраст студента");
+        int age = int.Parse(Console.ReadLine());
 
-        Student student = new Student(firstName, lastName);
+        Student student = new Student(firstName, lastName, age);
         school.AddNewStudent(student);
     }
     

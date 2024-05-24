@@ -9,6 +9,7 @@ public class Student
 {
     public string FirstName;
     public string LatestName;
+    public int Id;
     public int Age;
     public Student(string firstName, string lastName, int age)
     {
