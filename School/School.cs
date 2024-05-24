@@ -33,6 +33,6 @@ public class School
     public void AddNewStudent(Student student)
     {
         Students.Add(student);
-        Console.WriteLine($"Вы добавили студента {student}");
+        Console.WriteLine($"Вы добавили студента {student.FirstName}");
     }
 }
