@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Здравствуйте! Введите название вашей школы");
+﻿Console.WriteLine("Здравствуйте! Пожалуйста, ведите название вашей школы");
 string schoolName = Console.ReadLine();
 School school = new School(schoolName);
 Console.WriteLine($"Школа {school.Name} успешно создана");
